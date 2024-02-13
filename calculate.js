@@ -15,7 +15,10 @@ function calculateTriangleArea() {
 
   // calculate triangle area
   const area = 0.5 * base * height;
-//   console.log('Area is:',area);
+//   display
+    const display = document.getElementById('tri-area');
+    display.innerText = area;
+    
 }
 
 // Rectangle
@@ -32,10 +35,9 @@ function calculateRectangleArea( ) {
     const length = parseFloat(rectangleLengthText);
  
     // calculate rectangle 
-    const area = width * length;
-    console.log(area);
-    // display
+    const areaa = width * length;
+     // display
     const display = document.getElementById('rec-area');
-    display.innerText = area;
-    
+    display.innerText = areaa;
+
 }
